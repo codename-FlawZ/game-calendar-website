@@ -1,0 +1,17 @@
+@media screen and (max-width: 1400px) {
+    #calendar{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #calendar{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #calendar{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
